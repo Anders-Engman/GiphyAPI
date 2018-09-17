@@ -1,2 +1,2 @@
 # GiphyAPI
-A non-functioning GIPHY API Assignment Attempt
+A largely-functioning GIPHY API Assignment Attempt
