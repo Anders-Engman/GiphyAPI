@@ -49,7 +49,7 @@ $( document ).ready(function() {
         var animalAttr = $(this).attr("data-name");
 
         //javascript, jQuery
-        var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + animalAttr + "&api_key=UnxzCH0k4bEXW16OVMfrtVK3zpXLG4ZH&limit=10");
+        var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + animalAttr + "&api_key=UnxzCH0k4bEXW16OVMfrtVK3zpXLG4ZH&limit=10");
         xhr.done(function(data) { 
         
         // FOR LOOP FOR RESULTS
